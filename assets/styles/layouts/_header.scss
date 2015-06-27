@@ -1,6 +1,18 @@
+
+
 .navbar-default {
 	font-family: 'black_velvetregular';
 	background-image: url(../images/nav-bg-2.jpg);
+
+	.navbar-header .navbar-brand{
+		padding: 0;
+		img {
+			@media (max-width:$screen-md){
+				width: 180px;
+			}
+		}
+	}
+
 	.navbar-collapse {
 		background: $light-green;
 		padding: 4px;
@@ -25,7 +37,7 @@
 			-1px 1px 0 #fff,
 			1px 1px 0 #fff;
 		&:active {
-			background: $$blue;
+			background: $blue;
 		}
 		@media (min-width:$screen-sm){
 			padding: 10px 10px;

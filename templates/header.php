@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+			  <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><?php // bloginfo('name'); ?> <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/dist/images/sm-logo.png"></a>
         </div>
 
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
