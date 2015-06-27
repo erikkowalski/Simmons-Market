@@ -10,6 +10,14 @@
 		@media (min-width:768px) and (max-width:830px){ 	padding-top: 15px;}
 		@media (min-width:830px) and (max-width:992px){ 	padding-top: 18px;}
 		padding: 0;
+		@media (min-width:$screen-md){
+			transition: margin 2s;
+			margin-left: 10px;
+		}
+		@media (min-width:$screen-lg){
+			transition: margin 2s;
+			margin-left: 50px;
+		}
 		img {
 			@media (max-width:$screen-sm){						width: 200px;}
 			@media (min-width:768px) and (max-width:830px){	width: 130px;}
@@ -18,11 +26,19 @@
 	}
 
 	.navbar-collapse {
-		background: $light-green;
+		@media (max-width:$screen-sm){
+			background: $gray-lighter;
+			a {
+				text-align: center;
+			}
+		}
+		@media (min-width:$screen-sm){
+			background: $light-green;
 		padding: 4px;
 		border: 1px solid black;
 		ul {
 			background: $blue;
+		}
 		}
 	}
 	.navbar-right {
@@ -57,15 +73,17 @@
 			-1px 1px 0 $light-green,
 			1px 1px 0 $light-green;
 		color: black;
+		@media (min-width:$screen-sm) {
 		background: $blue;
+		}
 	}
 	.navbar-nav>.active>a:focus,
 	.navbar-nav>.active>a:hover {
 		text-shadow:
-			-1px -1px 0 $green,
-			1px -1px 0 $green,
-			-1px 1px 0 $green,
-			1px 1px 0 $green;
+			-1px -1px 0 rgba(255, 255, 255, 0.49),
+			1px -1px 0 rgba(255, 255, 255, 0.49),
+			-1px 1px 0 rgba(255, 255, 255, 0.49),
+			1px 1px 0 rgba(255, 255, 255, 0.49);
 		color: black;
 		background: $blue;
 	}
@@ -79,4 +97,39 @@
 		color: black;
 		background: $blue;
 	}
+
+	@media (min-width:$screen-sm) {
+	.navbar-nav>.open>a, {
+		background: $blue;
+	}
+	.navbar-nav>.open>a:focus, {
+		background: $blue;
+
+	}
+	.navbar-nav>.open>a:hover{
+		background: $blue;
+
+
+	}
+	}
+	.dropdown-menu>li>a {
+		text-transform: lowercase;
+		letter-spacing: 0.03em;
+		font-size: 1.4em;
+		text-shadow:
+			-1px -1px 0 rgba(255, 255, 255, 0.49),
+			1px -1px 0 rgba(255, 255, 255, 0.49),
+			-1px 1px 0 rgba(255, 255, 255, 0.49),
+			1px 1px 0 rgba(255, 255, 255, 0.49);
+	}
+
+
+	.navbar-toggle {
+		border: none;
+
+		.icon-bar { background-color: $red;
+			border: 2px solid $red;
+		}
+	}
+
 }
