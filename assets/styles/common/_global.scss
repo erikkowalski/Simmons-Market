@@ -13,7 +13,7 @@
 
 // offset fixed navbar
 body {
-	padding-top: 100px;
+	padding-top: 110px;
 }
 
 comment-content img, .entry-content img, .widget img {
@@ -35,6 +35,9 @@ img.wp-post-image {
 
 
 
-.admin-bar .navbar {
+.admin-bar{
+	padding-top: 120px;
+	.navbar {
 	margin-top: 30px;
+}
 }
