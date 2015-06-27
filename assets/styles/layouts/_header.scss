@@ -1,5 +1,63 @@
-.navbar {
+.navbar-default {
 	font-family: 'black_velvetregular';
 	background-image: url(../images/nav-bg-2.jpg);
-
+	.navbar-collapse {
+		background: $light-green;
+		padding: 4px;
+		border: 1px solid black;
+		ul {
+			background: $blue;
+		}
+	}
+	.navbar-right {
+	@media (min-width:$screen-md){
+		margin-top: 30px;
+	}
+	}
+	.navbar-nav>li>a {
+		color: black;
+		text-transform: lowercase;
+		font-size: 1.8em;
+		letter-spacing: 0.01em;
+		text-shadow:
+			-1px -1px 0 #fff,
+			1px -1px 0 #fff,
+			-1px 1px 0 #fff,
+			1px 1px 0 #fff;
+		&:active {
+			background: $$blue;
+		}
+		@media (min-width:$screen-sm){
+			padding: 10px 10px;
+		}
+	}
+	.navbar-nav>.active>a {
+		text-shadow:
+			-1px -1px 0 $light-green,
+			1px -1px 0 $light-green,
+			-1px 1px 0 $light-green,
+			1px 1px 0 $light-green;
+		color: black;
+		background: $blue;
+	}
+	.navbar-nav>.active>a:focus,
+	.navbar-nav>.active>a:hover {
+		text-shadow:
+			-1px -1px 0 $green,
+			1px -1px 0 $green,
+			-1px 1px 0 $green,
+			1px 1px 0 $green;
+		color: black;
+		background: $blue;
+	}
+	.navbar-nav>a:focus,
+	.navbar-nav>a:hover {
+		text-shadow:
+			-1px -1px 0 $green,
+			1px -1px 0 $green,
+			-1px 1px 0 $green,
+			1px 1px 0 $green;
+		color: black;
+		background: $blue;
+	}
 }
