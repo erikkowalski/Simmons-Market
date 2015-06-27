@@ -4,12 +4,16 @@
 	font-family: 'black_velvetregular';
 	background-image: url(../images/nav-bg-2.jpg);
 
+
 	.navbar-header .navbar-brand{
+		@media (max-width:$screen-sm){							padding-top: 10px;}
+		@media (min-width:768px) and (max-width:830px){ 	padding-top: 15px;}
+		@media (min-width:830px) and (max-width:992px){ 	padding-top: 18px;}
 		padding: 0;
 		img {
-			@media (max-width:$screen-md){
-				width: 180px;
-			}
+			@media (max-width:$screen-sm){						width: 200px;}
+			@media (min-width:768px) and (max-width:830px){	width: 130px;}
+			@media (min-width:830px) and (max-width:992px){	width: 185px;}
 		}
 	}
 
@@ -22,6 +26,9 @@
 		}
 	}
 	.navbar-right {
+		@media (max-width:$screen-sm){							margin-top: 10px;}
+		@media (min-width:768px) and (max-width:830px){ 	margin-top: 15px;}
+		@media (min-width:830px) and (max-width:992px){ 	margin-top: 35px;}
 	@media (min-width:$screen-md){
 		margin-top: 30px;
 	}
