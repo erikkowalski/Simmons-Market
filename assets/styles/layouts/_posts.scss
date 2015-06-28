@@ -1,0 +1,55 @@
+// ----------- Blog!!!
+.blog {
+
+	.page-header {
+		font-family: $display;
+		text-transform: lowercase;
+		background: white;
+		padding:0 1em 0.5em 1em;
+
+		h1{
+			letter-spacing: 0.05em;
+			font-size: 3.6em;
+			margin: 0;
+			text-align: center;
+
+		}
+	}
+
+.author {
+	margin-left: 1em;
+}
+
+.author, .author a {
+	display: inline-block;
+	padding-right: 2em;
+	text-transform: lowercase;
+	font-size: 1em;
+}
+
+.published {
+	padding-right: .5em;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+.entry-title {
+	background: $blue;
+	margin: 0;
+	padding: 0.5em;
+	text-align: center;
+
+
+a {
+	color: white;
+	letter-spacing: 0.02em;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.49);
+}
+}//---> /.entry-tittle
+
+	.post {
+		background: white;
+		padding: 1em;
+	}
+
+} //---> /.blog
