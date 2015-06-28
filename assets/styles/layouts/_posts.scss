@@ -53,3 +53,35 @@ a {
 	}
 
 } //---> /.blog
+
+// --- Single Post
+
+.single-post {
+	.entry-content,.comments {
+		background: white;
+		padding: 1em;
+	}
+	.comments {
+		margin-top: 2em;
+	}
+
+	.post header {
+		background: white;
+		padding:0.1em 1em;
+		margin: 2.8em 0 1em 0;
+		.entry-title {
+			margin-top: 0.2em;
+		}
+		.author {
+			margin-left: 1em;
+		}
+
+		.author, .author a {
+			display: inline-block;
+			padding-right: 2em;
+			text-transform: lowercase;
+			font-size: 1em;
+		}
+
+	}
+}
