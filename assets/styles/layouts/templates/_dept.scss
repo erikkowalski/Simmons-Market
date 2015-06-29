@@ -1,8 +1,29 @@
 .page-template-template-departments {
-	padding-top: 95px;
+	padding-top: 100px;
 	 .main {
 		margin: 0;
 		padding: 0;
 	}
 
+	.departments header {
+
+	}
+
+		.page-header {
+			text-align: center;
+			h1 {font-size: 4em;}
+			text-transform: uppercase;
+			font-weight: 900;
+			color: white;
+			text-shadow: 1px 2px 0 rgba(1, 0, 2, 0.49);
+			background-attachment: fixed;
+			background-size: contain;
+
+		}
 } // ---> /.page-template-template-departments
+
+.market {
+	.page-header {
+		background-image: url(../images/market-header.jpg);
+	}
+}
