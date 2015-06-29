@@ -21,5 +21,9 @@
 
 <div class="container">
 <hr>
+	<div class="col-md-4"><img src="<?php the_field('field_name'); ?>" alt="<?php the_field('field_name'); ?>" data-title="<?php the_field('field_name'); ?>" data-lightbox="image-1"></div>
+	<div class="col-md-4"><img src="" alt=""></div>
+	<div class="col-md-4"><img src="" alt=""></div>
+	<div class="col-md-4"><img src="" alt=""></div>
 	</div>
 </section>
