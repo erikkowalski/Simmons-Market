@@ -5,21 +5,62 @@
 		padding: 0;
 	}
 
-	.departments header {
 
+	.dashes {
+		height: 1em;
+		width: 100%;
+		background-image: url(../images/stripes.gif);
+		margin-bottom: 1em;
 	}
 
 		.page-header {
 			text-align: center;
-			h1 {font-size: 4em;}
-			text-transform: uppercase;
+			//text-transform: uppercase;
 			font-weight: 900;
 			color: white;
 			text-shadow: 1px 2px 0 rgba(1, 0, 2, 0.49);
-			background-attachment: fixed;
+			background-attachment:fixed;
 			background-size: contain;
+			margin: 0;
+			transition: padding 1s;
+			padding: 2em;
+				h1 {
+					transition: font-size 1s;
+					font-size: 4em;
+					margin: 0;
+				}
+			@media (min-width:$screen-sm){
+				padding: 4em;
+				h1 {
+					font-size: 5em;
+				}
+			}
+			@media (min-width:$screen-md){
+				padding: 6em;
+				h1 {
+					font-size: 6em;
+				}
+			}
 
 		}
+
+	.content {
+		padding-bottom: 2em;
+		background: white;
+		h2 {
+			@media(max-width:$screen-sm){
+				font-size: 1.4em;
+			}
+		}
+			 ul {
+				padding:0 1em;
+			}
+
+	}
+
+	.dept-header-img {
+		margin-top: 2em;
+	}
 } // ---> /.page-template-template-departments
 
 .market {
