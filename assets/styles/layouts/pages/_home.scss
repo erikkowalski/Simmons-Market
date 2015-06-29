@@ -1,4 +1,8 @@
 .home {
+		.main {
+			margin-top: 0.1em;
+		}
+
 
 	.carousel.fade
 	{
@@ -35,8 +39,11 @@
 	} // --->/.carousel
 
 	.container {
+		@media (max-width:770px){
+		width: 100%;
+		}
 		@media (max-width:$screen-sm){
-		margin: 0;
+			margin: 0;
 			padding: 0;
 		}
 	}
@@ -48,14 +55,40 @@
 		}
 	}
 
+	.home-top {
+		@media (min-width:$screen-md){
+			position: relative;
+		}
+	}
+
 	.hero-quote {
 		max-width: 780px;
 		margin: 0 auto;
 		background: white;
 		@media (min-width:$screen-sm){
-
 			box-shadow:-5px -5px 0px 0px rgba(225,225,225,1),
-				5px 5px 0px 0px rgba(225,225,225,1);
+							5px 5px 0px 0px rgba(225,225,225,1);
+			padding: 1em;
+			margin-top: 1em;
+		}
+		@media (min-width:$screen-md){
+			position: absolute;
+			top:450px;
+			left: 150px;
+			z-index: 1025;
+			h1 {
+				line-height: 1.4em;
+				max-width: 600px;
+				padding: 0 1em;
+			}
+		}
+	@media (min-width:$screen-lg){
+			position: absolute;
+			top:530px;
+			left: 250px;
+			z-index: 1025;
+
+
 		}
 
 		img {
@@ -71,5 +104,26 @@
 			 }
 		}
 		text-align: center;
+	}
+
+	.home-promos{
+		margin-top: 2em;
+		background: white;
+		@media (min-width:$screen-sm){
+			padding: 1em;
+		}
+		.promo {
+			margin-bottom: 1em;
+			@media (min-width:$screen-sm){
+				margin-bottom: 2em;
+			}
+		}
+
+		@media (min-width:$screen-md){
+			margin-top: 320px;
+		}
+		@media (min-width:$screen-lg){
+			margin-top: 280px;
+		}
 	}
 }// --->/.home

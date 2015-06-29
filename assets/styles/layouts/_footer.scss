@@ -49,31 +49,6 @@ footer .container>p {
 
 
 
-.copyright {
-	text-align: center;
-	padding: 1em 1px 2em 0;
-	font-size: 0.9em;
-	color: black;
-}
-
-.blog-name {
-	letter-spacing: .02em;
-	padding-right: 10px;
-	font-weight: 600;
-	font-size: 2.6em;
-	margin-bottom: 0;
-	color: #000;
-}
-
-.footer-bottom .copyright:first-child p {
-	margin-bottom: 0;
-
-}
-
-.footer-tagline {
-	padding-right: 10px;
-	font-size: 0.9em;
-}
 
 .content-info .widget {
 	position: relative;
@@ -97,4 +72,34 @@ footer .container>p {
 		float: left;
 		width: 25%;
 	}
+
+} // ---> /.content-info
+
+.footer-info {
+	padding: 3em 1em 2em 1em;
 }
+
+.social-logos {
+	@media (min-width:$screen-sm){
+		max-width: 400px;
+		margin: 0 auto;
+}
+
+	img {
+		max-width: 60px;
+		margin: 0 auto;
+	}
+}
+
+.sidebar-footer {
+	padding-bottom: 2em;
+}
+
+footer {
+	.logo-full {
+		max-width: 350px;
+		margin: 0 auto;
+		padding: 3em 2em 1em 2em ;
+	}
+}
+

@@ -33,4 +33,26 @@
 		padding: 0;
 	}
 
+
+
+	.facebook-likebox-2 {
+		@media (min-width:$screen-sm){
+			iframe {
+				width:153px;
+			}
+		}
+		@media (min-width:$screen-md){
+			iframe {
+				width:213px;
+			}
+		}
+		@media (min-width:$screen-lg){
+			iframe {
+				width:263px;
+			}
+		}
+	}
+
+
+
 }
