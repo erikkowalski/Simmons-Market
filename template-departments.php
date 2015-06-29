@@ -21,7 +21,7 @@
 
 <div class="container">
 <hr>
-	<div class="col-md-4"><img src="<?php the_field('field_name'); ?>" alt="<?php the_field('field_name'); ?>" data-title="<?php the_field('field_name'); ?>" data-lightbox="image-1"></div>
+	<div class="col-md-4"><a href="<?php the_field('lightbox_one_link'); ?>"><img src="<?php the_field('lightbox_one'); ?>" alt="<?php the_field('light_box_image_description'); ?>" data-title="<?php the_field('lightbox_image_caption'); ?>" data-lightbox="image-1"></a></div>
 	<div class="col-md-4"><img src="" alt=""></div>
 	<div class="col-md-4"><img src="" alt=""></div>
 	<div class="col-md-4"><img src="" alt=""></div>
