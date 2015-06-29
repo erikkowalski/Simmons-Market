@@ -14,9 +14,10 @@
 // offset fixed navbar
 
 
-body {
+.page, .blog, .single-post {
 	padding-top: 110px;
 	background-image: url(../images/stripes.gif);
+	background-attachment: fixed;
 }
 
 

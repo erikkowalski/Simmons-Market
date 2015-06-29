@@ -36,7 +36,14 @@
 	</a>
 </div><!-- /.carousel -->
 
-<img class="img-responsive" src="<?php  the_field('home_img') ?>" alt="">
+<section class="hero-quote">
+	<h1><em><?php the_field('hero_quote');?></em></h1>
+	<img class="img-responsive"  src="<?php the_field('divider'); ?>" alt="divider line">
+	<h2><b><?php the_field('call_ahead');?></b></h2>
+	<h2><?php the_field('phone_number');?></h2>
+	<h2><b><?php the_field('open');?></b></h2>
+	<h2><b><?php the_field('hours');?></b></h2>
+</section>
 
 <?php if (!have_posts()) : ?>
 <div class="alert alert-warning">
