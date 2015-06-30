@@ -9,7 +9,8 @@
   "dependencies": {
     "modernizr": "2.8.2",
     "jquery": "1.11.2",
-    "bootstrap-sass-official": "3.3.4"
+    "bootstrap-sass-official": "3.3.4",
+    "lightbox2": "~2.7.4"
   },
   "overrides": {
     "modernizr": {
@@ -38,5 +39,4 @@
       ]
     }
   }
-
 }
