@@ -120,6 +120,9 @@
 			@media (min-width:$screen-sm){
 				margin-bottom: 2em;
 			}
+			@media (min-width:$screen-lg){
+				margin: 1em 0;
+			}
 		}
 
 		@media (min-width:$screen-md){

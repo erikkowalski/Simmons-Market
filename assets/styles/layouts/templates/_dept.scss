@@ -55,6 +55,11 @@
 			 ul {
 				padding:0 1em;
 			}
+		@media (min-width:$screen-md){
+		li {
+			font-size: 1.3em;
+		}
+		}
 
 	}
 
@@ -68,7 +73,18 @@
 		background-image: url(../images/market-header.jpg);
 	}
 
+	.lightbox-headline {
+	text-align: center;
+		padding: 1em;
+	}
+
+	.dept-promos {
+		padding-bottom: 2em;
+	}
+
 }
+
+//-- light box style ----
 
 /* Preload images */
 body:after {
