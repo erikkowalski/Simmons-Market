@@ -1,5 +1,5 @@
 .page-template-template-departments {
-	padding-top: 100px;
+	padding-top: 80px;
 	 .main {
 		margin: 0;
 		padding: 0;
@@ -23,20 +23,20 @@
 			background-size: contain;
 			margin: 0;
 			transition: padding 1s;
-			padding: 2em;
+			padding: 3em 2em 2em 2em ;
 				h1 {
 					transition: font-size 1s;
 					font-size: 4em;
 					margin: 0;
 				}
 			@media (min-width:$screen-sm){
-				padding: 4em;
+				padding: 5em 4em 4em 4em ;
 				h1 {
 					font-size: 5em;
 				}
 			}
 			@media (min-width:$screen-md){
-				padding: 6em;
+				padding: 8em 6em 6em 6em ;
 				h1 {
 					font-size: 6em;
 				}
@@ -66,23 +66,49 @@
 	.dept-header-img {
 		margin-top: 2em;
 	}
+	.lightbox-headline {
+		text-align: center;
+		padding: 1em;
+	}
+
+	.dept-promos {
+		padding-bottom: 2em;
+			@media(max-width:$screen-md){
+				div{
+					margin-bottom: 2em;
+				}
+			}
+	}
 } // ---> /.page-template-template-departments
 
 .market {
 	.page-header {
 		background-image: url(../images/market-header.jpg);
 	}
-
-	.lightbox-headline {
-	text-align: center;
-		padding: 1em;
-	}
-
-	.dept-promos {
-		padding-bottom: 2em;
-	}
-
 }
+
+.cafe {
+	.page-header {
+		background-image: url(../images/cafe-header.jpg);
+	}
+}
+.ice-cream {
+	.page-header {
+		background-image: url(../images/ice-cream-header.jpg);
+	}
+}
+.gifts {
+	.page-header {
+		background-image: url(../images/gifts-header.jpg);
+	}
+}
+.art {
+	.page-header {
+		background-image: url(../images/art-header.jpg);
+	}
+}
+
+
 
 //-- light box style ----
 
