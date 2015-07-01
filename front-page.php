@@ -54,7 +54,7 @@
 	</aside>
 </section>
 
-<section class="home-promos ">
+<section class="home-promos clearfix">
 
 		<div class="promo col-sm-6 col-md-6 col-lg-3">
 			<a href="<?php the_field('ice_cream_link'); ?>">	<img class="img-responsive"  src="<?php the_field('ice_cream'); ?>" alt="ice-cream"></a>
