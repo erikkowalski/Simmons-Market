@@ -14,10 +14,14 @@
 		@media (min-width:$screen-md){
 			transition: margin 2s;
 			margin-left: 10px;
+			width: 200px;
+			position: absolute;
+			top:-50px;
 		}
 		@media (min-width:$screen-lg){
 			transition: margin 2s;
 			margin-left: 50px;
+
 		}
 		img {
 			@media (max-width:$screen-sm){						width: 200px;}
@@ -132,5 +136,6 @@
 			border: 2px solid $red;
 		}
 	}
+
 
 }
