@@ -39,3 +39,8 @@ function container_selector( $page_url, $full_width_pages ){
 		return 'container';
 	}
 }
+
+function custom_excerpt_length($length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', __NAMESPACE__ .'\\custom_excerpt_length', 999 );
