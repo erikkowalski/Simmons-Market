@@ -1,7 +1,7 @@
 .home {
-		.main {
-			margin-top: 0.1em;
-		}
+	.main {
+		margin-top: 0.1em;
+	}
 
 
 	.carousel.fade
@@ -40,7 +40,7 @@
 
 	.container {
 		@media (max-width:770px){
-		width: 100%;
+			width: 100%;
 		}
 		@media (max-width:$screen-sm){
 			//margin: 0;
@@ -51,7 +51,7 @@
 		background: white;
 		background-image: url(../images/ricepaper2.png);
 		@media (min-width:$screen-sm){
-		padding: 1em;
+			padding: 1em;
 		}
 		@media (max-width:$screen-sm){
 			padding: 0;
@@ -70,7 +70,7 @@
 		background: white;
 		@media (min-width:$screen-sm){
 			box-shadow:-5px -5px 0px 0px rgba(225,225,225,1),
-							5px 5px 0px 0px rgba(225,225,225,1);
+				5px 5px 0px 0px rgba(225,225,225,1);
 			padding: 1em;
 			margin-top: 1em;
 		}
@@ -85,7 +85,7 @@
 				padding: 0 1em;
 			}
 		}
-	@media (min-width:$screen-lg){
+		@media (min-width:$screen-lg){
 			position: absolute;
 			top:530px;
 			left: 250px;
@@ -103,8 +103,8 @@
 				padding: 1em;
 			}
 			h2 {
-				 margin: 0.5em 0;
-			 }
+				margin: 0.5em 0;
+			}
 		}
 		text-align: center;
 	}
@@ -130,26 +130,6 @@
 		}
 		@media (min-width:$screen-lg){
 			margin-top: 280px;
-		}
-	}
-
-	.recent-posts{
-		margin-top: 2em;
-		background: white;
-		@media (max-width:$screen-sm){
-			padding: 5px;
-		}
-		@media (min-width:$screen-sm){
-			padding: 1em;
-		}
-
-		h3 {
-			text-align: center;
-			font-family: $display;
-			font-size: 3em;
-			padding: 0 1em 0.5em 1em;
-			margin-bottom: 1em;
-			border-bottom: 1px solid #cccccc;
 		}
 	}
 }// --->/.home

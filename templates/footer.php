@@ -1,7 +1,7 @@
 <footer class="content-info" role="contentinfo">
   <div class="container">
 	  <div class="logo-full">
-		  <img class="img-responsive" src="<?= get_bloginfo('template_directory')?>/dist/images/simmons-logo-full.png" alt="Simmons Market Logo">
+		  <img class="img-responsive" src="<?= get_bloginfo('template_directory')?>/dist/images/sm-logo-full.png" alt="Simmons Market Logo">
 	  </div>
 
 	  <hr>
