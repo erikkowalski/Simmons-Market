@@ -91,9 +91,6 @@
 
 <?php the_posts_navigation(); ?>
 
-<section class="photo-grid">
-    <div class="col-sx-2 "></div>
-</section>
 
 <section class="clearfix recent-posts">
 	<?php //Display 3 random News Posts
@@ -107,7 +104,7 @@ $recent_posts = new \WP_Query( $recent_posts_args ); ?>
 	<h3>Recent Posts / Facebook</h3>
 	<div  class="row">
 		<?php while ( $recent_posts->have_posts() ) : $recent_posts->the_post(); ?>
-		<div class="col-md-4">
+		<div class="col-sm-4">
 			<a href="<?php the_permalink(); ?>">  <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?></a>
 
 			<h4 class="entry-title"> <a href="<?php the_permalink(); ?>"><?php the_title();?> </a></h4>
@@ -118,7 +115,7 @@ $recent_posts = new \WP_Query( $recent_posts_args ); ?>
 		<?php endwhile;
 wp_reset_postdata();
 		?>
-		<aside class="col-md-4">
+		<aside class="col-sm-4">
 			<?php dynamic_sidebar('sidebar-home'); ?>
 		</aside>
 	</div>

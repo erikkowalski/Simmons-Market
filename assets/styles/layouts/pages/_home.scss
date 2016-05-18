@@ -68,35 +68,6 @@
 		max-width: 780px;
 		margin: 0 auto;
 		background: white;
-		@media (min-width:$screen-sm){
-			box-shadow:-5px -5px 0px 0px rgba(225,225,225,1),
-				5px 5px 0px 0px rgba(225,225,225,1);
-			padding: 1em;
-			margin-top: 1em;
-		}
-		@media (min-width:$screen-md){
-			position: absolute;
-			top:450px;
-			left: 150px;
-			z-index: 1025;
-			h1 {
-				line-height: 1.4em;
-				max-width: 600px;
-				padding: 0 1em;
-			}
-		}
-		@media (min-width:$screen-lg){
-			position: absolute;
-			top:530px;
-			left: 250px;
-			z-index: 1025;
-
-
-		}
-
-		img {
-			margin: 0 auto;
-		}
 		@media (max-width:$screen-sm){
 			padding-bottom: 1em;
 			h1 {
@@ -106,6 +77,63 @@
 				margin: 0.5em 0;
 			}
 		}
+		@media (max-width:$screen-md){
+			padding: 0.5em;
+			max-width: 650px;
+			h1 {
+				padding: 0.2em 0 0.2em 0;
+				font-size: 2em;
+				max-width: 600px;
+				text-align: center;
+				margin: 0 auto;
+			}
+
+			h2 {
+				font-size: 1.4em;
+			}
+
+		}
+		@media (min-width:$screen-sm){
+			box-shadow:-5px -5px 0px 0px rgba(225,225,225,1),
+				5px 5px 0px 0px rgba(225,225,225,1);
+			padding: 0.5em 1em;
+			margin-top: 1em;
+			position: absolute;
+			top:320px;
+			left: 75px;
+			z-index: 1025;
+		}
+		@media (min-width:$screen-md){
+			position: absolute;
+			top:420px;
+			left: 150px;
+			z-index: 1025;
+			h1 {
+				line-height: 1.2em;
+				font-size: 2em;
+				max-width: 600px;
+				padding: 0 0.8em;
+				margin-top: 0.5em;
+			}
+			h2 {
+				font-size: 1.6em;
+				line-height: 1em;
+				margin-top: 0.5em;
+			}
+		}
+		@media (min-width:$screen-lg){
+			position: absolute;
+			top:485px;
+			left: 250px;
+			z-index: 1025;
+
+
+		}
+
+		img {
+			margin: 0 auto;
+		}
+
 		text-align: center;
 	}
 
@@ -125,11 +153,20 @@
 			}
 		}
 
+		@media (min-width:$screen-sm){
+			margin-top: 175px;
+		}
 		@media (min-width:$screen-md){
-			margin-top: 320px;
+			margin-top: 135px;
 		}
 		@media (min-width:$screen-lg){
-			margin-top: 280px;
+			margin-top: 100px;
+		}
+	}
+
+	.recent-posts {
+		@media(max-width:$screen-sm){
+			padding: 2em;
 		}
 	}
 }// --->/.home
