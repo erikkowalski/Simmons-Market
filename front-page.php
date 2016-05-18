@@ -55,19 +55,19 @@
 </section>
 
 <section class="home-promos clearfix">
-	<div class="promo col-sm-6 col-md-6 col-lg-3">
+	<div class="promo col-sm-6 col-md-6 ">
 		<a href="<?php the_field('cafe_link'); ?>"><img class="img-responsive"  src="<?php the_field('cafe'); ?>" alt="cafe"></a>
 	</div>
 
-		<div class="promo col-sm-6 col-md-6 col-lg-3">
+		<div class="promo col-sm-6 col-md-6 ">
 			<a href="<?php the_field('ice_cream_link'); ?>">	<img class="img-responsive"  src="<?php the_field('ice_cream'); ?>" alt="ice-cream"></a>
 		</div>
 
-	<div class="promo col-sm-6 col-md-6 col-lg-3">
+	<div class="promo col-sm-6 col-md-6 ">
 		<a href="<?php the_field('market_link'); ?>"><img class="img-responsive"  src="<?php the_field('market'); ?>" alt="market"></a>
 	</div>
 
-		<div class="promo col-sm-6 col-md-6 col-lg-3">
+		<div class="promo col-sm-6 col-md-6 ">
 			<a href="<?php the_field('gift_link'); ?>"><img class="img-responsive"  src="<?php the_field('gifts'); ?>" alt="gifts"></a>
 		</div>
 
