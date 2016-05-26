@@ -43,31 +43,31 @@
 
 		<img class="img-responsive"  src="<?php the_field('divider'); ?>" alt="divider line">
 
-		<h2><b><?php the_field('call_ahead');?></b></h2>
+		<h2><?php the_field('call_ahead');?> <b><?php the_field('phone_number');?></b></h2>
 
-		<h2><?php the_field('phone_number');?></h2>
+		<h2></h2>
 
-		<h2><b><?php the_field('open');?></b></h2>
+		<h2><?php the_field('open');?> <?php the_field('hours');?></h2>
 
-		<h2><b><?php the_field('hours');?></b></h2>
+		<h2></h2>
 
 	</aside>
 </section>
 
 <section class="home-promos clearfix">
-	<div class="promo col-sm-6 col-md-6 col-lg-3">
+	<div class="promo col-sm-6 col-md-3 col-lg-3">
 		<a href="<?php the_field('cafe_link'); ?>"><img class="img-responsive"  src="<?php the_field('cafe'); ?>" alt="cafe"></a>
 	</div>
 
-		<div class="promo col-sm-6 col-md-6 col-lg-3">
+		<div class="promo col-sm-6 col-md-3 col-lg-3">
 			<a href="<?php the_field('ice_cream_link'); ?>">	<img class="img-responsive"  src="<?php the_field('ice_cream'); ?>" alt="ice-cream"></a>
 		</div>
 
-	<div class="promo col-sm-6 col-md-6 col-lg-3">
+	<div class="promo col-sm-6 col-md-3 col-lg-3">
 		<a href="<?php the_field('market_link'); ?>"><img class="img-responsive"  src="<?php the_field('market'); ?>" alt="market"></a>
 	</div>
 
-		<div class="promo col-sm-6 col-md-6 col-lg-3">
+		<div class="promo col-sm-6 col-md-3 col-lg-3">
 			<a href="<?php the_field('gift_link'); ?>"><img class="img-responsive"  src="<?php the_field('gifts'); ?>" alt="gifts"></a>
 		</div>
 

@@ -100,13 +100,13 @@
 			margin-top: 1em;
 			position: absolute;
 			top:320px;
-			left: 75px;
+			left: 145px;
 			z-index: 1025;
 		}
 		@media (min-width:$screen-md){
 			position: absolute;
 			top:420px;
-			left: 150px;
+			left: 215px;
 			z-index: 1025;
 			h1 {
 				line-height: 1.2em;
@@ -124,7 +124,7 @@
 		@media (min-width:$screen-lg){
 			position: absolute;
 			top:505px;
-			left: 250px;
+			left: 315px;
 			z-index: 1025;
 
 
@@ -144,17 +144,18 @@
 			padding: 1em;
 		}
 		.promo {
+			margin: 1em 0;
 			margin-bottom: 1em;
 			@media (min-width:$screen-sm){
 				margin-bottom: 2em;
 			}
 			@media (min-width:$screen-lg){
-				margin: 1em 0;
+
 			}
 		}
 
 		@media (min-width:$screen-sm){
-			margin-top: 175px;
+			margin-top: 145px;
 		}
 		@media (min-width:$screen-md){
 			margin-top: 135px;

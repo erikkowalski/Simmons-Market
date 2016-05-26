@@ -1,7 +1,7 @@
 /*--------- Contact form -----------*/
 
 .contact {
-	background: #ffffff;
+	background: #85C8B6;
 	background-image: url(../images/wood-bg.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -41,11 +41,12 @@
 
 
 	.main {
-		max-width: 600px;
+		max-width: 700px;
 		margin: 0 auto;
 		float: none;
 		border-radius: 10px;
-		background: rgba(255, 255, 255, 0.75);
+		background: rgba(255, 255, 255, 0.86);
+		padding-bottom: 15px;
 
 
 		form label {
@@ -58,7 +59,7 @@
 		}
 
 		form {
-			background: $blue;
+			background: #7e7e7e;
 			padding: 1em;
 			border-radius: 10px;
 		}
@@ -137,7 +138,7 @@
 		text-transform: uppercase;
 		font-weight: 100;
 		font-size: 2em;
-		margin-bottom: 4em;
+		margin-bottom: 2em;
 		letter-spacing: 0.2em;
 		padding: 10px 16px;
 		line-height: 1.33;
@@ -147,6 +148,10 @@
 
 	.contact-submit input:hover{
 		background: $brand-primary;
+	}
+
+	footer {
+		margin-top: 6em;
 	}
 
 } // .contact

@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-			  <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><?php // bloginfo('name'); ?> <img class="img-responsive hidden-lg" src="<?php bloginfo('template_directory'); ?>/dist/images/sm-logo.png"><img class="img-responsive logo-full visible-lg" src="<?php bloginfo('template_directory'); ?>/dist/images/sm-logo-full.png"></a>
+			  <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><?php // bloginfo('name'); ?> <img class="img-responsive hidden-sm hidden-md hidden-lg" src="<?php bloginfo('template_directory'); ?>/dist/images/sm-logo.png"><img class="img-responsive logo-full visible-sm visible-md visible-lg" src="<?php bloginfo('template_directory'); ?>/dist/images/sm-logo-full.png"></a>
         </div>
 
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
